@@ -1,13 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
-  //----------------- lecture_02 ----------------------------------//
   const cardAdj = [
-    { name: "c", img: "images/Melancolia f.jpg" },
+    { name: "c", img: "images/Melancolía f.jpg" },
     { name: "css", img: "images/decepcion e.jpg" },
     { name: "html", img: "images/feliz b.png" },
     { name: "c", img: "images/miedo h.jpg" },
     { name: "css", img: "images/namorado d.png" },
     { name: "html", img: "images/rabioso c.jpg" },
-    { name: "c", img: "images/Melancolia f.jpg" },
+    { name: "c", img: "images/Melancolía f.jpg" },
     { name: "css", img: "images/decepcion e.jpg" },
     { name: "html", img: "images/feliz b.png" },
     { name: "c", img: "images/miedo h.jpg" },
@@ -26,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
     for (let i = 0; i < cardAdj.length; i++) {
       var carta = document.createElement("img");
 
-      carta.setAttribute("src", "images/reverso.png");
+      carta.setAttribute("src", "images/reverso aruka.png");
 
       carta.setAttribute("data-id", i);
 
